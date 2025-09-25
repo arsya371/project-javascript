@@ -110,7 +110,7 @@ document.querySelector('.calculator-keys').addEventListener('click', (event) => 
     }
 
     if(target.classList.contains('all-clear')){
-       resetCalculator()
+        resetCalculator()
         return
     }
 
